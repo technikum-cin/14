@@ -23,4 +23,9 @@ public class CalculatorExtendedImplTest {
     public void testSumOfNegativeNumbers() {
         assertEquals(1, calc.sum(-1,2,-3,4,5,-6));
     }
+
+    @Test
+    public void testOfNull() {
+        assertEquals(0, calc.sum());
+    }
 }
